@@ -4,7 +4,7 @@ MuBu is a Max/MSP package developed by IRCAM. It gives Max objects to easily sto
 * Presentation: https://www.julesfrancoise.com/mubu-probabilistic-models/
 * Download link: http://forumnet.ircam.fr/fr/produit/mubu/
 * References (2012): http://forumnet.ircam.fr/wp-content/uploads/2012/10/MuBu-for-Max-Reference.pdf
-* Discussion forum: http://forumnet.ircam.fr/user-groups/mubu-for-max/forum/
+* Discussion forum: http://forumnet.ircam.fr/user-groups/mubu-for-max/forum/  
 In this code template, the purpose is to exploit the HHMM libraries (Hidden Hierarchical Markov Movel) also developed by IRCAM. This allows to record different gestures (here 3 gestures) and to make them recognize in real time by the algorithm. More specifically, this template is made to receive data of the Movuino sensor. The firmware used for Movuino is also provided and can be update directly with the Arduino software.
 
 Here you will find:  

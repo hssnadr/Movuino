@@ -56,6 +56,8 @@ To run the Max file, you'll need to install the MuBu package. It's very simple!
     * **to complete**  
     
  Once everything is installed and launch, you should see the Movuino data moving on the Max graphic "Movuino Data". Then the instruction are given within the file. The workflow is
- * Select the gesture you want to record (1,2 and 3); (step 1)
- * Trigger the record, the recording starts automatically when you start moving and stops when you stop; (step 2)
- * Activate the play mode (step 3)
+ * Step 1: Select the gesture you want to record (1,2 and 3)
+ * Step 2: Trigger the record, the recording starts automatically when you start moving and stops when you stop;
+ * Step 3: Activate the play mode;
+ * Reproduce the recorded gestures and follow the outputs at the bottom of the patch;
+ * You can also replay the recorded gestures by clicking on the gesture you want above the PLAY subpatch.

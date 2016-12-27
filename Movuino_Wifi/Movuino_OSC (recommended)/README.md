@@ -51,3 +51,18 @@ Here you will find:
 #### MAX/MSP
 Once Movuino is launch and properly connected, you don't have anything to do more than open the Max file `MovuinoOSC_to MaxMSP.maxpat`
 
+#### Python
+##### Installation needed
+* Python 2.7
+* Python libraries:
+  * Numpy: easiest way with command line `sudo pip install numpy`
+    * This library allows better data manipulation, especially using matrix and vectors
+  * pyOSC
+    * Dl link: https://pypi.python.org/pypi/pyOSC
+    * Reference: https://wiki.labomedia.org/index.php/Envoyer_et_recevoir_de_l%27OSC_en_python#Reception_d.27un_message_avec_un_serveur
+    
+Go into the Main.py file and `main()` function of each script to see how to interact with the code.
+
+##### Note
+* the pyOSC library returns an error when you close the server thread (`self.s.close()`). This error is not really a problem since 
+the thread is actually closed once called. If you know how to handle it please tell me cause I don't know when I will check that.

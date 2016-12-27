@@ -16,10 +16,8 @@
 #include <SLIPEncodedUSBSerial.h>
 
 // Set your wifi network configuration here
-//const char * ssid = "my_box_name";               // your network SSID (name of the wifi network)
-//const char * pass = "my_password";               // your network password
-const char * ssid = "Livebox-dfc4";                      // your network SSID (name of the wifi network)
-const char * pass = "2C4A14671307251995325AF6E1";                 // your network password
+const char * ssid = "my_box_name";               // your network SSID (name of the wifi network)
+const char * pass = "my_password";               // your network password
 const char * hostIP = "192.168.1.35";            // IP address of the host computer
 const unsigned int port = 7400;                  // port on which data are sent (send OSC message)
 

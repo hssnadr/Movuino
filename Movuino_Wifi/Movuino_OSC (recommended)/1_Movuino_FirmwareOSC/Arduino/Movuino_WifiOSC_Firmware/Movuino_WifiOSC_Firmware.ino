@@ -128,7 +128,7 @@ void loop() {
 
     delay(5);
     
-    printMovuinoData(); // optionnal
+    //printMovuinoData(); // optional
 
     // SEND MOVUINO DATA
     OSCMessage msg("/movuinOSC"); // create an OSC message on address "/movuinOSC"
@@ -153,8 +153,8 @@ void loop() {
         bundle.fill(Udp.read()); // read incoming message into the bundle
       }
       if (!bundle.hasError()) {
-         // when you receive a message on address "/test" the function callbackTestFunction() is called
-        bundle.dispatch("/test", callbackTestFunction);
+        bundle.dispatch("/dAcc", callbackFunctiondAcc); // when you receive a message on address "/dAcc" the function callbackFunctiondAcc() is called
+        bundle.dispatch("/dGyr", callbackFunctiondGyr); // when you receive a message on address "/dGyr" the function callbackFunctiondGyr() is called
         // you can create various call back function matching different address
       } else {
         error = bundle.getError();
@@ -196,9 +196,18 @@ void awakeWifi() {
   Serial.println("ON");
 }
 
-void callbackTestFunction(OSCMessage &msg) {
+void callbackFunctiondAcc(OSCMessage &msg) {
   // Just print incoming message in this example
-  Serial.println(msg.getInt(0));
+  Serial.print("Accelerometer distance");
+  Serial.print("\t");
+  Serial.println(msg.getFloat(0));
+}
+
+void callbackFunctiondGyr(OSCMessage &msg) {
+  // Just print incoming message in this example
+  Serial.print("Gyroscope distance");
+  Serial.print("\t");
+  Serial.println(msg.getFloat(0));
 }
 
 void printMovuinoData() {

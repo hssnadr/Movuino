@@ -19,7 +19,7 @@ Here you will find:
 
 ## Installation
   
-### Movuino
+### Movuino (1_Movuino_FirmwareOSC/)
 * Download and install the Arduino software: https://www.arduino.cc/en/Main/Software
 * Download and install the XXX driver: www.xxxx.com/download
 * Inside Arduino
@@ -46,3 +46,8 @@ Here you will find:
   * Upload firmware and check on the Arduino monitor window if everything is good!
   * You can shut down (partially) and turn on the Movuino by pressing the button during 1 second.
   * **You can also send message to the Movuino, also using OSC.**
+  
+### Movuino desktop application (2_MovuinoDesktop_OSC/)
+#### MAX/MSP
+Once Movuino is launch and properly connected, you don't have anything to do more than open the Max file `MovuinoOSC_to MaxMSP.maxpat`
+

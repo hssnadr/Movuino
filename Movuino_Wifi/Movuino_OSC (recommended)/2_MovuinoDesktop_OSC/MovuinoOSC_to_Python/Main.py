@@ -40,7 +40,7 @@ def main(args = None):
 
 		# SEND MESSAGE TO MOVUINO
 		osc_client.sendOSCMessage('dAcc', d1) # send back accelerometer euclidian distance to Movuino (useless but just for the example)
-		osc_client.sendOSCMessage('dGyr', d2) # send back gyroscope euclidian distance to Movuino (useless but just for the example)	
+		osc_client.sendOSCMessage('dGyr', d2) # send back gyroscope euclidian distance to Movuino (useless but just for the example)
 
 		print "---------------"
 

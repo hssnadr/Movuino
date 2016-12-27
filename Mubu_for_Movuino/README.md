@@ -4,14 +4,14 @@ MuBu is a Max/MSP package developed by IRCAM. It gives Max objects to easily sto
 * Presentation: https://www.julesfrancoise.com/mubu-probabilistic-models/
 * Download link: http://forumnet.ircam.fr/fr/produit/mubu/
 * References (2012): http://forumnet.ircam.fr/wp-content/uploads/2012/10/MuBu-for-Max-Reference.pdf
-* Discussion forum: http://forumnet.ircam.fr/user-groups/mubu-for-max/forum/  
+* Discussion forum: http://forumnet.ircam.fr/user-groups/mubu-for-max/forum/
   
 In this code template, the purpose is to exploit the HHMM libraries (Hidden Hierarchical Markov Movel) also developed by IRCAM. This allows to record different gestures (here 3 gestures) and to make them recognize in real time by the algorithm. More specifically, this template is made to receive data of the Movuino sensor. The firmware used for Movuino is also provided and can be update directly with the Arduino software.
 
 ## Content
 
 Here you will find:  
-* in the Arduino folder, a firmware template for the Movuino board, editable with Arduino; 
+* in the Arduino folder, a firmware template for the Movuino board, editable with Arduino;
 * A Max/MSP file containing the interface and the libraries to recognize your gestures.
 
 ## Installation
@@ -44,20 +44,20 @@ Here you will find:
   
   
 ### MAX/MSP
-To run the Max file, you'll need to install the MuBu package. It's very simple!  
+To run the Max file, you'll need to install the MuBu package. It's very simple!
 * download the package on the MuBu page: http://forumnet.ircam.fr/fr/produit/mubu/
 * unzip the folder "MuBuForMax" and simply past it into the proper folder:
  * **On Macintosh**
     * go to Applications folder, right click on the **Max** icon and choose "Show Package Contents"
     * paste the MuBuForMax folder into Contents/Resources/C74/packages
-    * launch or restart Max and that's it
+    * launch or restart Max and that's it.
   * **On Windows**
     * go to your installation folder (e.g.)
     * **to complete**  
     
- Once everything is installed and launch, you should see the Movuino data moving on the Max graphic "Movuino Data". Then the instruction are given within the file. The workflow is
+Once everything is installed and launch, you should see the Movuino data moving on the Max graphic "Movuino Data". Then the instruction are given within the file. The workflow is
  * Step 1: Select the gesture you want to record (1,2 and 3)
  * Step 2: Trigger the record, the recording starts automatically when you start moving and stops when you stop;
  * Step 3: Activate the play mode;
- * Reproduce the recorded gestures and follow the outputs at the bottom of the patch;
+ * Reproduce the recorded gestures and follow the output at the bottom of the patch;
  * You can also replay the recorded gestures by clicking on the gesture you want above the PLAY subpatch.

@@ -51,6 +51,9 @@ Here you will find:
 #### MAX/MSP
 Once Movuino is launch and properly connected, you don't have anything to do more than open the Max file `MovuinoOSC_to MaxMSP.maxpat`
 
+#### PureData
+Same than Max/MSP with file `MovuinoOSC_to_PureData.pd`
+
 #### Python
 ##### Installation needed
 * Python 2.7
@@ -65,3 +68,8 @@ Go into the Main.py file and `main()` function of each script to see how to inte
 ##### Note
 * the pyOSC library returns an error when you close the server thread (`self.s.close()`). This error is not really a problem since 
 the thread is actually closed once called. If you know how to handle it please tell me cause I don't know when I will check that.
+
+#### Processing
+* Install Processing: https://processing.org/download/
+* Install oscP5 libraries: into Processing go to Sketch/Include Library/Manage Libraries.. seek and install "oscP5"
+* Enjoy your life like never before

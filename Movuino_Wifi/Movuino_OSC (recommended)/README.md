@@ -37,7 +37,7 @@ Here you will find:
      * `const char * pass = "my_password";` type the password of the network
      * `const char * hostIP = "192.168.1.35";` set the ip address of **YOUR COMPUTER** which is also connected to the same Wifi network and on which you will use the Max file
      * `const unsigned int port = 7400;` (optional) here you can set the port on which the data are sent. If you don't use other ports or if you have no idea of what I'm talking about you can let 7400.
-     * `const unsigned int localPort = 3011;` (optional) here you can set the port on which Movuino can receive OSC message. Idem, better to let it at 3011.
+     * `const unsigned int localPort = 3011;` (optional) here you can set the port on which Movuino can receive OSC message. Idem, better to let it at 3011.
  * Go to Tools/Board, select "Adafruit HUZZAH ESP8266" with:
       * CPU Frequency: 80 MHz
       * Flash Size: 4M (3M SPIFFS)

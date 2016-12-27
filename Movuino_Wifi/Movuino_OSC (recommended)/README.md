@@ -44,3 +44,4 @@ Here you will find:
       * Port: the one corresponding to the Movuino
   * Upload firmware and check on the Arduino monitor window if everything is good!
   * You can shut down (partially) and turn on the Movuino by pressing the button during 1 second.
+  * **You can also send message to the Movuino, also using OSC.**

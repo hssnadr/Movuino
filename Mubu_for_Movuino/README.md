@@ -9,25 +9,29 @@ MuBu is a Max/MSP package developed by IRCAM. It gives Max objects to easily sto
 In this code template, the purpose is to exploit the HHMM libraries (Hidden Hierarchical Markov Movel) also developed by IRCAM. This allows to record different gestures (here 3 gestures) and to make them recognize in real time by the algorithm. More specifically, this template is made to receive data of the Movuino sensor. The firmware used for Movuino is also provided and can be update directly with the Arduino software.
   
 Here you will find:  
-* **In the Arduino folder:** Firmware template for the Movuino board, editable with Arduino. It also includes libraries, but you can get them by yourself. In the Arduino software go to "Sketch/Include Library/Manage Libraries...", here you can install:  
+* in the Arduino folder, a firmware template for the Movuino board, editable with Arduino. 
+* A Max/MSP file;
+  
+To run the Max file, you'll need to install the MuBu package. It's very simple!  
+* download the package on the MuBu page: http://forumnet.ircam.fr/fr/produit/mubu/
+* unzip the folder "MuBuForMax" and simply past it into the proper folder:
+ * On Macintosh:
+    * go to Applications folder, right click on the **Max** icon and choose "Show Package Contents"
+    * paste the MuBuForMax folder into Contents/Resources/C74/packages
+    * launch or restart Max and that's it
+  * On Windows:
+    * go to your installation folder (e.g.)
+    * **to complete**  
+    
+  
+  
+It also includes libraries, but you can get them by yourself. In the Arduino software go to "Sketch/Include Library/Manage Libraries...", here you can install:  
  * I2Cdev
  * OSC
   
 Concerning MPU6050 you better use the one in the folder, otherwise download manually the library (https://github.com/jrowberg/i2cdevlib/tree/master/Arduino/MPU6050), intall it by copying it into your Arduino folder, and edit the file Arduino/libraries/MPU6050/MPU6050.h
    * line 58, replace the line: `#define MPU6050_DEFAULT_ADDRESS MPU6050_ADDRESS_AD0_LOW`
    * **by:** `#define MPU6050_DEFAULT_ADDRESS MPU6050_ADDRESS_AD0_HIGH`
-  
-* Python script receiving data from Movuino, computing them and sharing them through OSC
-* Template to receive those data on various application:
-  * Unity
-  * Processing
-  * Pure Data
-  * Max MSP
-  * More to come ...  
-  
-The interest to use Python between Movuino and others development plateforms is to more quickly prototype various scenarios. Once you have a nice data algorithm in Python you can easily plug it to any kind of application using OSC.  
-You can even mixe application, for example: a game developped with Processing for screen interaction while the sound is generated with PureData.  
-Also, Python has lots of powerful open source libraries ready to make data computation (SVM, Markov chains, linear regression...) and is very flexible to handle lots of data using Numpy library.  
 
 # Movuino board firmware (Firmware_MovuinoWifi/Movuino_WifiFirmware)
 

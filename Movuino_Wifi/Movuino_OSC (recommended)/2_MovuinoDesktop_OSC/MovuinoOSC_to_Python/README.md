@@ -24,5 +24,5 @@ This template shows how to communicate with the Movuino using OSC protocole. You
     
 Go into the Main.py file and `main()` function of OSC_communication.py script to see how to interact with the code.  
 
-##### Note
+#### Note
 The pyOSC library returns an error when you close the server thread (`self.s.close()`). This error is not really a problem since the thread is actually closed once called. If you know how to handle it please tell me cause I don't know when I will check that.

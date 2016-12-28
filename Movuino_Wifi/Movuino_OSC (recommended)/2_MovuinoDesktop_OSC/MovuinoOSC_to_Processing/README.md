@@ -1,6 +1,8 @@
-# OSC template for Processing
+# Movuino to Processing
 
-This template shows how to use OSC inside Processing. It receives acceleration data of the Movuino streamed by the Python template (see Python folder).
+This template shows how to communicate with the Movuino using OSC protocole. You can receive the data and send back message to the Movuino.
 
-### Note
-You need to install oscP5 library: Sketch/Include Library/Manage Libraries... seek and install oscP5
+## Installation
+* Install Processing: https://processing.org/download/
+* Install oscP5 libraries: into Processing go to Sketch/Include Library/Manage Libraries.. seek and install "oscP5"
+* Enjoy your life like never before

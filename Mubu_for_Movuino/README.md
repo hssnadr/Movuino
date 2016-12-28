@@ -60,4 +60,4 @@ Once everything is installed and launch, you should see the Movuino data moving 
  * Step 2: Trigger the record, the recording starts automatically when you start moving and stops when you stop;
  * Step 3: Activate the play mode;
  * Reproduce the recorded gestures and follow the output at the bottom of the patch;
- * You can also replay the recorded gestures by clicking on the gesture you want above the PLAY subpatch.
+ * You can also replay the recorded gestures by clicking on the gesture you want above the `PLAY` subpatch.

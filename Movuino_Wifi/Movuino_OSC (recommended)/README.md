@@ -15,13 +15,14 @@ Here you will find:
  * Max/MSP
  * Processing
  * Unity
- * to be continued...
+ * Pure Data Extended
+ * to be continued... (sounds so intense)
 
 ## Installation
   
 ### Movuino (1_Movuino_FirmwareOSC/)
 * Download and install the Arduino software: https://www.arduino.cc/en/Main/Software
-* Download and install the XXX driver: www.xxxx.com/download
+* Download and install the CP2014 driver: http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 * Inside Arduino
   * Install the card ESP8266 following those instructions: https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon
   * Choose card (Tools/Board): Adafruit HUZZAH ESP8266
@@ -48,28 +49,5 @@ Here you will find:
   * **You can also send message to the Movuino, also using OSC.**
   
 ### Movuino desktop application (2_MovuinoDesktop_OSC/)
-#### MAX/MSP
-Once Movuino is launch and properly connected, you don't have anything to do more than open the Max file `MovuinoOSC_to MaxMSP.maxpat`
+Check the README file into each folders.
 
-#### PureData
-Same than Max/MSP with file `MovuinoOSC_to_PureData.pd`
-
-#### Python
-##### Installation needed
-* Python 2.7
-* Python libraries:
-  * Numpy: easiest way with command line `sudo pip install numpy`
-    * This library allows better data manipulation, especially using matrix and vectors
-  * pyOSC
-    * Dl link: https://pypi.python.org/pypi/pyOSC
-    * Reference: https://wiki.labomedia.org/index.php/Envoyer_et_recevoir_de_l%27OSC_en_python#Reception_d.27un_message_avec_un_serveur
-Go into the Main.py file and `main()` function of each script to see how to interact with the code.  
-
-##### Note
-* the pyOSC library returns an error when you close the server thread (`self.s.close()`). This error is not really a problem since 
-the thread is actually closed once called. If you know how to handle it please tell me cause I don't know when I will check that.
-
-#### Processing
-* Install Processing: https://processing.org/download/
-* Install oscP5 libraries: into Processing go to Sketch/Include Library/Manage Libraries.. seek and install "oscP5"
-* Enjoy your life like never before

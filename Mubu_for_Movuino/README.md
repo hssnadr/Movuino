@@ -18,7 +18,7 @@ Here you will find:
   
 ### Movuino
 * Download and install the Arduino software: https://www.arduino.cc/en/Main/Software
-* Download and install the XXX driver: www.xxxx.com/download
+* Download and install the CP2014 driver: http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx
 * Inside Arduino
   * Install the card ESP8266 following those instructions: https://learn.sparkfun.com/tutorials/esp8266-thing-hookup-guide/installing-the-esp8266-arduino-addon
   * Choose card (Tools/Board): Adafruit HUZZAH ESP8266

@@ -534,6 +534,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-20",
@@ -542,7 +543,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 542.5, 208.5, 175.0, 47.0 ],
-									"presentation_rect" : [ 543.5, 254.5, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "incoming Movuino data are blocked if the user is replaying recorded gestures"
 								}
@@ -568,7 +568,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 61.0, 184.0, 150.0, 20.0 ],
-									"presentation_rect" : [ 66.0, 196.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "bang while replaying"
 								}
@@ -3801,7 +3800,7 @@
 					"cursor_shape" : "bar",
 					"cursor_size" : 3,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 1.1 ],
+					"domain_bounds" : [ 0.0, 1.0 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,

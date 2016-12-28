@@ -56,7 +56,7 @@ class DataStreamer(Thread):
                 new_data = message.split(" ") # split data 
 
                 if len(new_data)== 7: # check data format
-                    self.dataCollection = np.concatenate((self.dataCollection, np.array([new_data])),axis=0) #add current data to dataCollection
+                    self.dataCollection = np.concatenate((self.dataCollection, np.array(np.array([new_data])).astype(np.float)),axis=0) #add current data to dataCollection
                 else:
                     print "Wrong data shape"
             except:

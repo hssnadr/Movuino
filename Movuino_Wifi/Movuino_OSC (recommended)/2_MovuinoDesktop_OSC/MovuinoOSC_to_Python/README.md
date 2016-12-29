@@ -5,20 +5,21 @@ This template shows how to communicate with the Movuino using OSC protocole. You
 ## Installation
 * Download and install Python 2.7
 * Download and install Python libraries:
+  * A good way to install Python libraries is to use pip command into your terminal, download and see how to install it here: https://pip.pypa.io/en/stable/installing/ (copy the `get-pip.py` file into your Python libraries folder and run the command `python get-pip.py` inside this folder)
   * Numpy: This library allows better data manipulation, especially using matrix and vectors.
     * On Macintosh
       * Go to your terminal and type the command lin `sudo pip install numpy`;
       * Press "enter", type your password and feel the magic.
     * On Windows
-      * **to complete**
-  * pyOSC
+      * Open your terminal with administrator rights and run command `python pip install numpy`
+  * pyOSC: this one is not available with `pip` command, you have to install it manually
     * Download here: https://pypi.python.org/pypi/pyOSC
     * Unzip the folder and paste it into your Python libraries folder.
       * On Macintosh: /Library/Python/2.7/site-packages
-      * On Windows: C:/Python27/site-packages
+      * On Windows: C:\Python27\Lib\site-packages
     * Open the command line console and change directory to the Python "site-packages" (previous point)
       * Macintosh: `cd /Library/Python/2.7/site-packages/pyOSC-0.3.5b_5294-py2.7.egg-info`
-      * Windows: `cd C:/Python27/site-packages/pyOSC-0.3.5b_5294-py2.7.egg-info`
+      * Windows: `cd C:\Python27\Lib\site-packages\pyOSC-0.3.5b_5294-py2.7.egg-info`
     * Now install the library with the command `python setup install`. You may need to run the command as administrator.
     * Reference: https://wiki.labomedia.org/index.php/Envoyer_et_recevoir_de_l%27OSC_en_python#Reception_d.27un_message_avec_un_serveur
     

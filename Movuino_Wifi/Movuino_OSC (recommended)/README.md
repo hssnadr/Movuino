@@ -48,5 +48,6 @@ Here you will find:
   * **You can also send message to the Movuino, also using OSC.**
   
 ### Movuino desktop application (2_MovuinoDesktop_OSC/)
-Check the README file into each folders.
+Check the README file into each folders.  
+![](https://media.giphy.com/media/SDogLD4FOZMM8/giphy.gif)
 

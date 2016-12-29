@@ -5,6 +5,6 @@ This template shows how to communicate with the Movuino using OSC protocole. You
 ## Installation
 * Install Processing: https://processing.org/download/
 * Install oscP5 libraries: into Processing go to Sketch/Include Library/Manage Libraries.. seek and install "oscP5"
-* Enjoy your life like never before
+* Run the script and enjoy your life like never before
 
 ![](https://media.giphy.com/media/EldfH1VJdbrwY/giphy.gif)

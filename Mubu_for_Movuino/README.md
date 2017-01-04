@@ -51,8 +51,8 @@ To run the Max file, you'll need to install the MuBu package. It's very simple!
     * paste the MuBuForMax folder into Contents/Resources/C74/packages
     * launch or restart Max and that's it.
   * **On Windows**
-    * go to your installation folder (e.g.)
-    * **to complete**  
+    * paste the MuBuForMax folder into C:\Program Files\Cycling '74\Max 7\resources\packages
+    * launch or restart Max and that's it.
     
 Once everything is installed and launch, you should see the Movuino data moving on the Max graphic "Movuino Data". Then the instruction are given within the file. The workflow is
  * Step 1: Select the gesture you want to record (1,2 and 3)

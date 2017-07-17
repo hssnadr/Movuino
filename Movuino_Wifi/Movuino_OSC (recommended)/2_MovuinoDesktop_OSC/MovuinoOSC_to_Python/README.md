@@ -24,7 +24,7 @@ This template shows how to communicate with the Movuino using OSC protocole. You
       * Macintosh: `cd /Library/Python/2.7/site-packages/pyOSC-0.3.5b_5294-py2.7.egg-info`
       * Windows: `cd C:\Python27\Lib\site-packages\pyOSC-0.3.5b_5294-py2.7.egg-info`
     * Now install the library with the command `python setup install`. You may need to run the command as administrator.
-    * Reference: https://wiki.labomedia.org/index.php/Envoyer_et_recevoir_de_l%27OSC_en_python#Reception_d.27un_message_avec_un_serveur
+    * Reference: https://wiki.labomedia.org/index.php/Envoyer_et_recevoir_de_l'OSC_en_python
     
 Go into the Main.py file and `main()` function of OSC_communication.py script to see how to interact with the code.  
 

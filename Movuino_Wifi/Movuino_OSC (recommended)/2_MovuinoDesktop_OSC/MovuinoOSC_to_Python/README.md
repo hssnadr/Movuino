@@ -6,7 +6,10 @@ This template shows how to communicate with the Movuino using OSC protocole. You
 * Download and install Python 2.7
   * If you're on **Windows**, add Python into System Environment Variables: https://docs.python.org/2/using/windows.html#excursus-setting-environment-variables
 * Download and install Python libraries:
-  * A good way to install Python libraries is to use pip command into your terminal, download and see how to install it here: https://pip.pypa.io/en/stable/installing/ (copy the `get-pip.py` file into your Python libraries folder and run the command `python get-pip.py` inside this folder)
+  * A good way to install Python libraries is to use pip command into your terminal, download and see how to install it here: https://pip.pypa.io/en/stable/installing/ 
+  * Install pip
+    * copy the file `get-pip.py` into your Python libraries folder and run the command `python get-pip.py` inside this folder
+    * on Windows, add the folder `C:\[pythondir]\scripts` into your `System Environment Variables`
   * Numpy: This library allows better data manipulation, especially using matrix and vectors.
     * On Macintosh
       * Go to your terminal and type the command lin `sudo pip install numpy`;
